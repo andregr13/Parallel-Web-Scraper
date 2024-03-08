@@ -1,6 +1,6 @@
 # Parallel-Web-Scraper
 ## Compile and run Instructions
-Install beautifulsoup by entering in the command line `pip install requests beautifulsoup4`   
+Install beautifulsoup by entering in the command line `pip install requests beautifulsoup4 lxml`   
 Then run the scraper with `python3 scraper.py`
 ## Problem Statement:
 Web scraping is a process of writing scripts to parse and collect specific data from a website. These scripts will go through the given HTML code of a site to collect data the user wants and store it however told. When running this process for many pages, this can get to be a slow process. We are looking to increase the efficiency of web scraping tools by adding multi threading functionality, whether that is to scrape multiple sites or pages at once or look for separate data on one page concurrently.
